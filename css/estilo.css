@@ -1,15 +1,20 @@
-body {
+body{
     background-color: #f8f9fa;
 }
 
-.card {
+.card img{
+    height: 220px;
+    object-fit: cover;
+}
+
+.card{
     transition: 0.3s;
 }
 
-.card:hover {
-    transform: scale(1.03);
+.card:hover{
+    transform: scale(1.02);
 }
 
-footer {
+footer{
     margin-top: 50px;
 }
